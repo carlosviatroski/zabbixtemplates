@@ -24,7 +24,7 @@ Monitoramento Base de OLT's Huawei.
 
 ```$index = substr($keys[$i], 15, 10);```
 
-Essa linha faz a separação da index da oid pelo posição do caráctere, por exemplo.
+Essa linha faz a separação da index da oid pela posição do caráctere, por exemplo.
 
 ```array(1) {
   ["IF-MIB::ifName.4194321152"]=>
