@@ -20,11 +20,11 @@ Monitoramento Base de OLT's Huawei.
 
 ## DEBUG
 
-- Dependendo da versão do snmpwalk, a saída das oid podem ser diferentes, aí tem que alterar algumas linhas no código linhas.
+- Dependendo da versão/configuraçao do snmp no sistema base, a saída das oid podem ser diferentes, aí tem que alterar algumas linhas no código linhas.
 
 ```$index = substr($keys[$i], 15, 10);```
 
-Essa linha faz a spearação da index da oid pelo posição do caráctere, por exemplo.
+Essa linha faz a separação da index da oid pelo posição do caráctere, por exemplo.
 
 ```array(1) {
   ["IF-MIB::ifName.4194321152"]=>
