@@ -2,15 +2,14 @@
 
 # Template Zabbix para monitorar OLT Huawei
 
-
-Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+Monitoramento Base de OLT's Huawei.
 
 ## Requisitos
 
-- Zabbix Sender
-- PHP
-- SNMP
-- Composer 
+- Zabbix Sender para receber os dados.
+- PHP, linguagem base.
+- SNMP para realizar a coleta.
+- Composer para instalar as dependencias.
 
 ## Instalando
 
@@ -21,11 +20,18 @@ Elements in beautiful READMEs include, but are not limited to: images, screensho
 
 ## DEBUG
 
-- Dependendo da versão do snmpwalk, a saída das mib podem ser diferentes, aí tem que alterar algumas linhas no código linhas
+- Dependendo da versão do snmpwalk, a saída das oid podem ser diferentes, aí tem que alterar algumas linhas no código linhas.
 
-```$index = substr($keys[$i], 49, 10);```
+```$index = substr($keys[$i], 15, 10);```
 
+Essa linha faz a spearação da index da oid pelo posição do caráctere, por exemplo.
 
+```array(1) {
+  ["IF-MIB::ifName.4194321152"]=>
+  string(18) "STRING: GPON 0/2/3"
+}```
+
+## Exemplo
 <img src="example.png" align="right" />
 
 
