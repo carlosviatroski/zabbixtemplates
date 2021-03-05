@@ -29,7 +29,8 @@ Essa linha faz a spearação da index da oid pelo posição do caráctere, por e
 ```array(1) {
   ["IF-MIB::ifName.4194321152"]=>
   string(18) "STRING: GPON 0/2/3"
-}```
+}
+```
 
 ## Exemplo
 <img src="example.png" align="right" />
